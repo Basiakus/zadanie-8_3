@@ -11,7 +11,7 @@ alert("skoro " + zmienna2 + " to " + zmienna2);
 /*
 function mario () { 
 	var zmienna2;
-	if(znienna2 == tak) {
+	if(znienna2 == "tak") {
 	alert("Jump!!!");
 	} else {
 	alert("...najlepiej na nintendo :D");
