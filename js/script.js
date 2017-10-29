@@ -32,8 +32,8 @@ if (squareMinus > 0) {
 alert("Próba z Switch'em");
 switch (squareMinus) {
     case '0':
-        alert("Switch mówi, że case jest = 0");
-        console.log("Switch case '0':");
+        alert("Switch mówi, że case jest = squareMinus");
+        console.log("case = squareMinus");
         break;
     default:
         alert("pozostał tylko default z info: 'Liczba różna od 0'");
