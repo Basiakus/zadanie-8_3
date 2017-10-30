@@ -4,7 +4,7 @@ var triangleBasis = prompt('Wpisz wartość całkowitą długości jego podstawy
 console.log(triangleBasis);
 var triangleHeight = prompt("Potrzebujemy jescze jego wysokość, również w cm.");
 console.log(triangleHeight);
-var triangleField = (triangleBasis * triangleHeight) / 2;
+var triangleField = triangleBasis * triangleHeight / 2;
 alert('Na podstawie Twoich danych pole trójkąta, którego podstawa wynosi: ' + triangleBasis + 'cm. ,oraz wysokość: ' + triangleHeight + 'cm. jest równe: ' + triangleField + "cm\u00B2.");
 console.log('Pole trójkąta wynosi: ' + triangleField + ' cm \u00B2');
 
@@ -15,7 +15,7 @@ var numberA = prompt('Wpisz wartość liczby a');
 var numberB = prompt('Wpisz wartość liczby b');
 
 alert('wartość liczby a = ' + numberA + ', liczby b = ' + numberB);
-var squareMinus = ((numberA * numberA) - (2 * numberA * numberB) + (numberB * numberB));
+var squareMinus = (numberA * numberA) - (2 * numberA * numberB) + (numberB * numberB);
 alert('Kwadrat róźnicy = ' + squareMinus);
 console.log(squareMinus);
 alert('instrukcja warunkowa "if - else if - else"');
