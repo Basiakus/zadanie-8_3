@@ -41,11 +41,12 @@ switch (squareMinus) {
 
 }
 alert("Na koniec 'short if'");
-(squareMinus > 0) ? alert("'short-if:true' Liczba jest dodatnia")
+var whatsUname = prompt("Jak masz na imię?");
 
-    :
-    alert("'short-if:false' Liczba jest ujemna");
+whatsUname == "Adam" ? console.log("Witaj ponownie") : console.log("nie gadam z obcymi");
 
+var age = prompt("Ile masz lat?");
+alert(age > 21 ? "Fajnie" : "Też dobrze");
 alert("Wróćmy jeszcze do Pana Mario i spróbujmy z switch'em");
 
 var zmienna = prompt("Grałeś kiedyś w Mario?");
